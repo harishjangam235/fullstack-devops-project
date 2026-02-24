@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label '' }
 
     environment {
         IMAGE_NAME = "harish/fullstack-app"
